@@ -1,6 +1,7 @@
 // Programa en C++ para jugar tres en raya
 
 #include<bits/stdc++.h>
+#include <time.h>
 using namespace std;
 
 #define COMPUTER 1
@@ -205,6 +206,8 @@ void playTresEnRaya(int whoseTurn)
 {
     char board[SIDE][SIDE];
     int moveIndex = 0, x = 0, y = 0;
+    
+    time_t t_inicio;
 
     initialize(board);
     showInstructions();
@@ -215,7 +218,9 @@ void playTresEnRaya(int whoseTurn)
         int n;
         if (whoseTurn == COMPUTER)
         {
+            t_inicio = time(NULL);
             n = bestMove(board, moveIndex);
+            printf("El tiempo que se demoró ejecutando la función bestMove fue: %f segundos\n", difftime(time(NULL), t_inicio));
             x = n / SIDE;
             y = n % SIDE;
             board[x][y] = COMPUTER_MOVE;
@@ -233,7 +238,9 @@ void playTresEnRaya(int whoseTurn)
                     if (board[i][j] == ' ')
                         printf("%d ", (i * 3 + j) + 1);
             printf("\n\nIngrese la posición = ");
+            t_inicio = time(NULL);
             scanf("%d",&n);
+            printf("El tiempo que se demoró el humano fue: %f segundos\n", difftime(time(NULL), t_inicio));
             n--;
             x = n / SIDE;
             y = n % SIDE;
