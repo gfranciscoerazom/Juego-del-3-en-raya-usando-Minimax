@@ -17,6 +17,20 @@ El juego de tres en raya es uno de los juegos m'as comunes que existen a nivel m
 Dentro de la experiencia de máquina vs humano existen varias posibilidades dondr la maquina puede ser mejor que el humano o viceversa, de tal manera existen casos peores y mejores de cada uno, dentro de la historia las primeras maquinas no mantenian un tiempo vorto ni estandarizadoby la mayoria de desiciones que tomaba el computador dentro de un juego de logica lo llevaba a la perfida del mismo haciendo que el ganador sea el humano, esto ha ido cambiando con el pasar de los años y en la actualidad gracias a la inteligencia artificial se ha podido ver como las máquinas han mejorado tanto su tiempo de desición y la efectividad de la misma al punto de que en algunas partidas o juegos completos de lógica las máquinashan salido victoriosas.  
 - ***Computadora:*** Las máquinas en la actualidad se puede decir que han mejorado en todo sentido pero cuando se trata de juegos de lógica como el tres en raya muestra que su tiempo al tomar la desicion de realizar un movimiento es de 1 segundo e incluso menos dependiendo de la situación, lo que quiere decir que toma desiciones rápidas pero eso no quiere decir que sea la desicion correcta o efectiva necesariamente. Todo esto se da gracias a que existen algoritmos programados para la computadora en donde verifica los peores y mejores casos o respuestas de una manera rápida pero no necesariamente efectiva.  
 - ***Humano:*** Los humanos no necesariamente mantienen un ritmo seguro o estático esto varía dependiendo de las personas que realicenla actividad aun así en términos generales estadísticos en el mejor de los casos se tiene una respuesta de movimiento en los primeros 10 o 20 segundos, mientras que en el peor de los casos el tiempo de respuesta puede llegar a tardar entre 1 o 2 minutos, cabe recalcar que aun así la respuesta no siempre es correcta o efectiva.  
+
+Dentro del programa realizado se verifica los tiempos en los que cada uno responde al turno o al movimiento solicitado, por cada movimiento sea de la máquina o del humano se contabiliza el tiempo cada que se realiza un movimiento.  
+
+Estas pruebas se ejecutaron en una computadora Asus zephyrus g14 con un procesador ryzen 9 y 16 GB de RAM DDR4.   
+
+![image](https://user-images.githubusercontent.com/87248845/210479594-96c430c8-39c6-421a-ba1d-3a4ce54f66fe.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479583-9ada96b6-2065-4d53-9388-e067f9e47b8b.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479573-dd795eda-e38e-4408-b5b6-e360de168318.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479554-21f6c3f6-b76f-4e7e-b644-a81964055b07.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479427-1255165c-0ebe-4b00-86a8-f21c1d849a6d.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479493-ff6fc664-72c2-44f5-9079-b7fae1d87285.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479499-3be5b64b-75d8-43ac-bfe7-02d06e191a94.png)  
+![image](https://user-images.githubusercontent.com/87248845/210479519-3755bfa6-326e-4e25-922e-7c81cc951071.png)  
+
 ## Arbol de posibilidades  
 Un árbol de juego completo es un árbol que comienza desde la posición inicial y contiene todos los movimientos posibles desde cada posición; el árbol completo es el mismo árbol obtenido al renderizar todo el juego. Más específicamente, un juego completo es una especificación de un juego en teoría de juegos. En él se pueden formular muchos aspectos importantes. Por ejemplo, la secuencia de acciones que pueden realizar las partes interesadas, sus elecciones en cada punto de decisión, información sobre las acciones que han realizado otras partes interesadas mientras cada parte interesada tomaba una decisión y los beneficios de todos los posibles resultados del juego.  
 
